@@ -43,27 +43,25 @@
         </div>
     </nav>
     <!-- Header -->
-    <header id="header" class="py-3 full-height">
-        
+    <header id="header" class="py-1 full-height">
+        <img src="assets/img/logo.jpg"></img>
     </header>
     <!-- Comentario -->
-    <section id="section" class="py-4 bg-primary">
-        <div class="container text-center my-3">
+    <section id="section" class="bg-primary">
+        <div class="container text-center p-5">
             <p class="h4 text-white">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae, assumenda, et voluptatibus magni
-                laudantium numquam molestias labore perspiciatis consequuntur eaque adipisci quam dolorem temporibus
-                maxime eveniet, eum voluptates! Sapiente, recusandae?
+                ¡Disfruta de las mejores Pizzas!
             </p>
-            <cite class="h5 text-white">- Tom</cite>
+            <cite class="h5 text-white">- Pizzajon</cite>
         </div>
     </section>
     <!-- Menú -->
-    <section id="menu" class="py-3 full-height">
+    <section class="py-3 ">
         <div class="container">
             <div class="row mb-md-5 d-flex justify-content-center">
                 <h2 class="display-4 mb-0">Menú</h2>
             </div>
-            <div class="row">
+            <div id="menu" class="row full-height">
                 <div class="col-md-6">
                     <div class="noticia-img d-flex justify-content-center">
                         <img src="assets/img/celular 1.png" alt="Smartphone" width="100%">
@@ -88,30 +86,20 @@
     <!-- Contacto -->
     <section id="contacto" class="bg-primary py-3 text-white p-1">
         <div class="container my-3 ">
-            <div class="row">
-                <div class="col-md-4">
-                    <h2 class="text-center text-white">Lorem Ipsum</h2>
-                    <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ex
-                        consequatur, autem alias, reprehenderit labore quia iusto eligendi illum soluta necessitatibus
-                        tenetur? Rem, dolorem cupiditate repellendus voluptas magnam facilis et.</p>
-                </div>
-                <div class="col-md-4">
-                    <h2 class="text-center text-white">Lorem Ipsum</h2>
-                    <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ex
-                        consequatur, autem alias, reprehenderit labore quia iusto eligendi illum soluta necessitatibus
-                        tenetur? Rem, dolorem cupiditate repellendus voluptas magnam facilis et.</p>
-                </div>
-                <div class="col-md-4">
-                    <h2 class="text-center text-white">Lorem Ipsum</h2>
-                    <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ex
-                        consequatur, autem alias, reprehenderit labore quia iusto eligendi illum soluta necessitatibus
-                        tenetur? Rem, dolorem cupiditate repellendus voluptas magnam facilis et.</p>
-                </div>
+            <div class="row d-flex justify-content-center align-items-center">
+                    <a class="btn btn-whatsapp m-1 p-2" href="https://wa.me/584261587389/?text=¡Hola Pizzajon!" target="_blank">
+                        <img src="assets/icons/whatsapp.png"></img>
+                        <span class="h6 font-weight-bold text-white">¡Haz tu Pedido!</span>
+                    </a>
+                    <a class="btn btn-instagram m-1 p-2" href="https://www.instagram.com/pizzajonrestobar/" target="_blank">
+                        <img src="assets/icons/instagram.png"></img>
+                        <span class="h6 font-weight-bold text-white">¡Síguenos!</span>
+                    </a>
             </div>
         </div>
     </section>
     <!-- Mapa -->
-    <section id="mapa" class="mapa py-5 full-height">
+    <section id="mapa" class="py-5 full-height">
         <div class="container">
             <div class="row">
                 <!-- Espacio en blanco de 7 columnas -->
