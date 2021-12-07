@@ -1,0 +1,36 @@
+.navbar{
+    padding: .8rem .1rem;
+    background-color: #0f0e0e !important;
+}
+.navFixed{
+    position:fixed;
+    top:0; 
+    left:0;
+    width:100%;
+    z-index:100;
+    opacity: 0.90;
+}
+.dropdown-menu{
+    background-color: #0f0e0e !important;
+}
+.dropdown-menu a{
+    color: rgba(255,255,255,.5) !important;
+}
+.dropdown-menu a:hover{
+    background-color: #0f0e0e !important;
+    color: #FFF !important;
+}
+h1, h2, h3, h4, h5, h6, .navbar-brand{
+    text-transform: none;
+}
+.text-black{
+    color: #000 !important;
+}
+.bg-black{
+    background: #000 !important;
+}
+.full-height{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,13 @@
+{
+    "autoload": {
+    	"psr-4": {
+    		"config\\" : "content/config",
+    		"content\\" : "content"
+    	}
+    },
+    "require": {
+        "fortawesome/font-awesome": "5.15.3",
+        "components/jquery": "3.6.0",
+        "twbs/bootstrap": "4.5.0"
+    }
+}
