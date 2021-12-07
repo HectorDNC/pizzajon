@@ -24,9 +24,9 @@
             <div class="collapse navbar-collapse" id="navbar-content">
                 <ul class="navbar-nav ml-auto px-3 px-md-0">
                     <!-- <li class="nav-item"><a href="#header" class="nav-link">Inicio</a></li> -->
-                    <li class="nav-item"><a href="#menu" class="nav-link nav-link-scroll">Menú</a></li>
-                    <li class="nav-item"><a href="#contacto" class="nav-link nav-link-scroll">Contacto</a></li>
-                    <li class="nav-item"><a href="#mapa" class="nav-link nav-link-scroll">Mapa</a></li>
+                    <li class="nav-item"><a href="#menu" class="nav-link nav-link-scroll"><i class="fa fa-book-open mr-1"></i>Menú</a></li>
+                    <li class="nav-item"><a href="#contacto" class="nav-link nav-link-scroll"><i class="fab fa-whatsapp mr-1"></i>Contacto</a></li>
+                    <li class="nav-item"><a href="#mapa" class="nav-link nav-link-scroll"><i class="fa fa-map-marker-alt mr-1"></i>Ubicación</a></li>
                     <!-- <li class="nav-item">
                         <div class="dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true">
