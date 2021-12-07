@@ -1,13 +1,25 @@
 $(function () {
+    
+    var focus = $(window).scrollTop();
+    console.log(focus)
     var nav = $("#navbar");
-    position = nav.height();
-    $(window).scroll(function () {//Fijar el navbar al hacer scroll 
-        if ($(window).scrollTop() > $(nav).position().top) {
-            $(nav).addClass("navFixed");
+    if($(window).scrollTop() > $("#header").height()){//Si el foco no esta en el header
+        $(nav).addClass("navDark");//Se remueve la clase con color oscuro
+    }
+    $(window).scroll(function () {//Ejecutar al hacer Scroll
+        if ($(window).scrollTop() > focus) {
+            
+            console.log("bajar")
+            $(nav).slideUp(1000);//Se oculta al bajar
         }
         else {
-            $(nav).removeClass("navFixed");
+            $(nav).addClass("navDark");//Se asigna la clase para color oscuro
+            $(nav).slideDown(1000);//Se muestra al subir
+            if($(window).scrollTop() < $("#header").height()){//Si se hizo scroll hasta el header
+                $(nav).removeClass("navDark");//Se remueve la clase con color oscuro
+            }
         }
+        focus = $(window).scrollTop();//Se graba la nueva posición
     });
 
     //Scroll con click en elementos del navbar

@@ -44,24 +44,7 @@
     </nav>
     <!-- Header -->
     <header id="header" class="py-3 full-height">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="header-img d-flex justify-content-center">
-                        <img src="assets/img/celular 4.png" alt="" width="90%">
-                    </div>
-                </div>
-                <div class="col-md-6 my-auto">
-                    <div class="header-content">
-                        <h1 class="display-4 text-center">Pizzajon</h1>
-                        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-                            ipsum minus praesentium labore assumenda, magnam, omnis eos, neque nemo aliquam vero?
-                            Exercitationem aliquid incidunt similique repellat eos dolore recusandae facilis!</p>
-                        <a href="about" class="btn btn-outline-primary">Read More</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
     </header>
     <!-- Comentario -->
     <section id="section" class="py-4 bg-primary">

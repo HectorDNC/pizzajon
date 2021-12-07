@@ -1,15 +1,16 @@
 .navbar{
-    padding: .8rem .1rem;
-    background-color: #0f0e0e !important;
-}
-.navFixed{
+    padding: .6rem .1rem;
+    background-color: rgba(15, 14, 14, 0.1) !important;
     position:fixed;
     top:0; 
     left:0;
     width:100%;
     z-index:100;
-    opacity: 0.90;
 }
+.navDark{
+    background-color: rgba(15, 14, 14, 0.9) !important;
+}
+
 .dropdown-menu{
     background-color: #0f0e0e !important;
 }
@@ -33,4 +34,10 @@ h1, h2, h3, h4, h5, h6, .navbar-brand{
     min-height: 100vh;
     display: flex;
     align-items: center;
+}
+
+@media (max-width: 600px) {
+    .navbar-nav{
+        background-color: rgba(15, 14, 14, 0.9) !important;
+    }
 }
