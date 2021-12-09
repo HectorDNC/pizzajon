@@ -59,7 +59,7 @@
     <section class="py-3 ">
         <div class="container">
             <div class="row mb-md-5 d-flex justify-content-center">
-                <h2 class="display-4 mb-0">Menú</h2>
+                <h3 class="display-4 mb-0">Menú</h3>
             </div>
             <div id="menu" class="row full-height">
                 <div class="col-md-6">
@@ -77,52 +77,31 @@
                     </div>
                 </div>
             </div>
-            <div class="row d-flex justify-content-center">
-                <button class="btn btn-primary mx-1 px-3 py-2"><span class="h4 text-white"><</span></button>
-                <button class="btn btn-primary mx-1 px-3 py-2"><span class="h4 text-white">></span></button>
-            </div>
         </div>
     </section>
     <!-- Contacto -->
     <section id="contacto" class="bg-primary py-3 text-white p-1">
         <div class="container my-3 ">
             <div class="row d-flex justify-content-center align-items-center">
-                    <a class="btn btn-whatsapp m-1 p-2" href="https://wa.me/584261587389/?text=¡Hola Pizzajon!" target="_blank">
-                        <img src="assets/icons/whatsapp.png"></img>
-                        <span class="h6 font-weight-bold text-white">¡Haz tu Pedido!</span>
-                    </a>
-                    <a class="btn btn-instagram m-1 p-2" href="https://www.instagram.com/pizzajonrestobar/" target="_blank">
-                        <img src="assets/icons/instagram.png"></img>
-                        <span class="h6 font-weight-bold text-white">¡Síguenos!</span>
-                    </a>
+                <a class="btn btn-whatsapp m-1 p-2" href="https://wa.me/584261587389/?text=¡Hola Pizzajon!" target="_blank">
+                    <img src="assets/icons/whatsapp.png"></img>
+                    <span class="h6 font-weight-bold text-white">¡Haz tu Pedido!</span>
+                </a>
+                <a class="btn btn-instagram m-1 p-2" href="https://www.instagram.com/pizzajonrestobar/" target="_blank">
+                    <img src="assets/icons/instagram.png"></img>
+                    <span class="h6 font-weight-bold text-white">¡Síguenos!</span>
+                </a>
             </div>
         </div>
     </section>
     <!-- Mapa -->
     <section id="mapa" class="py-5 full-height">
         <div class="container">
-            <div class="row">
-                <!-- Espacio en blanco de 7 columnas -->
-                <div class="col-md-7"></div>
-                <div class="col-md-5">
-                    <form action="" class="card">
-                        <div class="card-header">
-                            <h2 class="text-center">Mapa</h2>
-                        </div>
-                        <div class="card-body">
-                            <div class="form-group">
-                                <input type="text" class="form-control" name="" id="" placeholder="Nombre">
-                            </div>
-                            <div class="form-group">
-                                <input type="email" class="form-control" name="" id="" placeholder="Email">
-                            </div>
-                            <div class="form-group">
-                                <textarea class="form-control" name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
-                            </div>
-                            <button class="btn btn-outline-secondary btn-block" type="button">Enviar</button>
-                        </div>
-                    </form>
-                </div>
+            <div class="row mb-md-5 d-flex justify-content-center">
+                <h3 class="display-4 mb-0">Ubicación</h3>
+            </div>
+            <div id="map" class="row">
+
             </div>
         </div>
     </section>
@@ -141,9 +120,11 @@
 
     <!-- Scripts -->
     <script src="vendor/components/jquery/jquery.min.js"></script>
-    <script src="assets/js/navbar.js"></script>
+    <script src="assets/js/navbar.js"></script> 
     <script src="vendor/twbs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="vendor/twbs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="assets/js/map.js"></script> 
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCedg2aWimiiG13uUtrriVMqFbMibZCJhk&callback=iniciarMap"></script>
 </body>
 
 </html>
