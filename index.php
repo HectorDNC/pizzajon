@@ -57,26 +57,15 @@
     </section>
     <!-- Menú -->
     <section class="py-3 ">
-        <div class="container">
-            <div class="row mb-md-5 d-flex justify-content-center">
-                <h3 class="display-4 mb-0">Menú</h3>
-            </div>
-            <div id="menu" class="row full-height">
-                <div class="col-md-6">
-                    <div class="noticia-img d-flex justify-content-center">
-                        <img src="assets/img/celular 1.png" alt="Smartphone" width="100%">
-                    </div>
-                </div>
-                <div class="col-md-6 my-auto">
-                    <div class="noticia-descripcion">
-                        <h3>Lo más nuevo</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur eligendi recusandae
-                            eaque rem alias, enim, omnis amet dicta cupiditate sapiente, explicabo quod corrupti est
-                            voluptatum nulla tenetur accusantium repudiandae. Necessitatibus!</p>
-                        <a href="#1" class="btn btn-outline-primary px-3 py-2">Read More</a>
-                    </div>
-                </div>
-            </div>
+        <div class="row mb-md-5 d-flex justify-content-center">
+            <h3 class="display-4 mb-0">Menú</h3>
+        </div>
+        <div id="menu" class="d-flex flex-row full-height">
+            <img src="assets/img/carta_de_menu.jpg" />
+            <img src="assets/img/carta_de_menu1.jpg" />
+            <img src="assets/img/carta_de_menu.jpg" />
+            <img src="assets/img/carta_de_menu1.jpg" />
+        </div>
         </div>
     </section>
     <!-- Contacto -->
@@ -120,10 +109,10 @@
 
     <!-- Scripts -->
     <script src="vendor/components/jquery/jquery.min.js"></script>
-    <script src="assets/js/navbar.js"></script> 
+    <script src="assets/js/navbar.js"></script>
     <script src="vendor/twbs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="vendor/twbs/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="assets/js/map.js"></script> 
+    <script src="assets/js/map.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCedg2aWimiiG13uUtrriVMqFbMibZCJhk&callback=iniciarMap"></script>
 </body>
 
