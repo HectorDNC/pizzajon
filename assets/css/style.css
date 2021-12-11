@@ -3,6 +3,22 @@ body{
     padding: 0;
     overflow-x: hidden;
 }
+*::-webkit-scrollbar{
+    width: 10px;
+    height: 12px;
+    border-radius: 5px;
+}
+*::-webkit-scrollbar-track{
+    background: rgba(235, 236, 241,1);
+}
+*::-webkit-scrollbar-thumb{
+    background: rgba(0, 0, 0, .9);
+    border-left: 2px solid rgba(255, 255, 255, 1);
+    border-top: 2px solid rgba(255, 255, 255, 1);
+}
+*::-webkit-scrollbar-thumb:hover{
+    background: rgba(0, 0, 0, 0.8);
+}
 .navbar{
     padding: .6rem .1rem;
     background-color: rgba(15, 14, 14, 0.1) !important;

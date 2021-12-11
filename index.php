@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
 
 <head>
@@ -57,7 +57,7 @@
     </section>
     <!-- Menú -->
     <section class="py-3 ">
-        <div class="row mb-md-5 d-flex justify-content-center">
+        <div class="mb-md-1 d-flex justify-content-center">
             <h3 class="display-4 mb-0">Menú</h3>
         </div>
         <div id="menu" class="d-flex flex-row full-height">
@@ -84,13 +84,14 @@
         </div>
     </section>
     <!-- Mapa -->
-    <section id="mapa" class="py-5 full-height">
+    <section class="py-5 full-height">
         <div class="container">
-            <div class="row mb-md-5 d-flex justify-content-center">
-                <h3 class="display-4 mb-0">Ubicación</h3>
+            <div class="row d-flex justify-content-center">
+                <h3 class="display-4 mb-1">Ubicación</h3>
             </div>
-            <div id="map" class="row">
-
+            <div id="mapa" class="row">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13382.31980384888!2d-71.54450703177525!3d-33.01484813945989!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sve!4v1639184545107!5m2!1ses!2sve" width="600" height="450" allowfullscreen="true" loading="lazy" style="border:0; margin-left:auto; margin-right:auto; width:100vw; height:90vh;">
+                </iframe>
             </div>
         </div>
     </section>
@@ -112,8 +113,8 @@
     <script src="assets/js/navbar.js"></script>
     <script src="vendor/twbs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="vendor/twbs/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="assets/js/map.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCedg2aWimiiG13uUtrriVMqFbMibZCJhk&callback=iniciarMap"></script>
+    <!-- <script src="assets/js/map.js"></script> -->
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDlbo7CZSPjM_lKNcP4Df5tvR9AoMM594E&callback=iniciarMap"></script> -->
 </body>
 
 </html>
