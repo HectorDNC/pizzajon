@@ -89,8 +89,14 @@
             <div class="row d-flex justify-content-center">
                 <h3 class="display-4 mb-1">Ubicación</h3>
             </div>
+            <div class="row">
+                <a class="btn btn-mapa p-2" href="https://goo.gl/maps/nGCEtR23io2ngjES8" target="_blank">
+                    <img src="assets/icons/mapa.png"></img>
+                    <span class="h6 font-weight-bold text-white">Abrir Mapa</span>
+                </a>
+            </div>
             <div id="mapa" class="row">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13382.31980384888!2d-71.54450703177525!3d-33.01484813945989!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sve!4v1639184545107!5m2!1ses!2sve" width="600" height="450" allowfullscreen="true" loading="lazy" style="border:0; margin-left:auto; margin-right:auto; width:100vw; height:90vh;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d836.366946090561!2d-71.54637070367019!3d-33.01780433939609!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9689ddddd7a0b2df%3A0xc15319dd2d54538b!2zMzPCsDAxJzA0LjEiUyA3McKwMzInNDYuNyJX!5e0!3m2!1ses-419!2sve!4v1642464470935!5m2!1ses-419!2sve" width="600" height="450" allowfullscreen="true" loading="lazy" style="border:0; margin-left:auto; margin-right:auto; width:100vw; height:90vh;">
                 </iframe>
             </div>
         </div>
