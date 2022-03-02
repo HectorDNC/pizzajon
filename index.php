@@ -61,10 +61,10 @@
             <h3 class="display-4 mb-0">Menú</h3>
         </div>
         <div id="menu" class="d-flex flex-row full-height">
-            <img src="assets/img/carta_de_menu.jpg" />
-            <img src="assets/img/carta_de_menu1.jpg" />
-            <img src="assets/img/carta_de_menu.jpg" />
-            <img src="assets/img/carta_de_menu1.jpg" />
+            <img src="assets/img/carta_1.jpeg" />
+            <img src="assets/img/carta_2.jpeg" />
+            <img src="assets/img/pizza_1.jpg" />
+            <!-- <img src="assets/img/pizza_2.jpg" /> -->
         </div>
         </div>
     </section>
