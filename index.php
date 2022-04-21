@@ -58,7 +58,7 @@
     <!-- Menú -->
     <section class="bg-black text-white py-3">
         <div class="mb-md-1 d-flex justify-content-center">
-            <h3 class="display-4 mb-0">Menú</h3>
+            <h3 class="display-4 text-white mb-0">Menú</h3>
         </div>
         <div id="menu" class="d-flex flex-row full-height">
             <img src="assets/img/carta_1.png" />
@@ -90,7 +90,7 @@
     <section class="bg-black text-white py-5 full-height">
         <div class="container">
             <div class="row d-flex justify-content-center">
-                <h3 class="display-4 mb-1">Ubicación</h3>
+                <h3 class="display-4 text-white mb-1">Ubicación</h3>
             </div>
             <div class="row">
                 <a class="btn btn-mapa p-2" href="https://goo.gl/maps/nGCEtR23io2ngjES8" target="_blank">
@@ -105,7 +105,7 @@
         </div>
     </section>
     <!-- Footer -->
-    <footer id="footer" class="bg-black text-white">
+    <footer id="footer" class="bg-primary text-white">
         <div class="container p-4">
             <p class="lead text-center">Pizzajon - Copyright &copy; 2021</p>
             <div class="d-flex justify-content-center">
