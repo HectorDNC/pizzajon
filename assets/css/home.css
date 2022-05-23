@@ -43,6 +43,7 @@
 #menu img{
     margin: 0 2.5px;
     width: auto;
-    height: 95vh;
+    height: auto;
     max-width: 98vw;
+    max-height: 100vh;
 }

@@ -7,10 +7,10 @@
     <title>Pizzajon</title>
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap-lux.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="vendor/fortawesome/font-awesome/css/all.min.css">
     <link rel="shortcut icon" href="assets/icons/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" href="assets/css/home.css?v=<?php echo time(); ?>">
 </head>
 
 <body>
@@ -56,26 +56,27 @@
         </div>
     </section>
     <!-- Menú -->
-    <section class="bg-black text-white py-3">
-        <div class="mb-md-1 d-flex justify-content-center">
-            <h3 class="display-4 text-white mb-0">Menú</h3>
-        </div>
-        <div id="menu" class="d-flex flex-row full-height">
-            <img src="assets/img/carta_1.png" />
-            <img src="assets/img/carta_2.png" />
-            <img src="assets/img/carta_3.png" />
-            <img src="assets/img/carta_4.png" />
-            <img src="assets/img/carta_5.png" />
-            <img src="assets/img/carta_6.png" />
-            <img src="assets/img/carta_7.png" />
-        </div>
+    <section class="bg-black text-white py-5">
+        <div>
+            <div class="mb-md-1 d-flex justify-content-center">
+                <h3 class="display-4 text-white mb-0">Menú</h3>
+            </div>
+            <div id="menu" class="d-flex flex-row">
+                <img src="assets/img/carta_1.png" />
+                <img src="assets/img/carta_2.png" />
+                <img src="assets/img/carta_3.png" />
+                <img src="assets/img/carta_4.png" />
+                <img src="assets/img/carta_5.png" />
+                <img src="assets/img/carta_6.png" />
+                <img src="assets/img/carta_7.png" />
+            </div>
         </div>
     </section>
     <!-- Contacto -->
     <section id="contacto" class="bg-primary py-3 text-white p-1">
         <div class="container my-3 ">
             <div class="row d-flex justify-content-center align-items-center">
-                <a class="btn btn-whatsapp m-1 p-2" href="https://wa.me/584261587389/?text=¡Hola Pizzajon!" target="_blank">
+                <a class="btn btn-whatsapp m-1 p-2" href="https://wa.me/56945623087/?text=¡Hola Pizzajon! " target="_blank">
                     <img src="assets/icons/whatsapp.png"></img>
                     <span class="h6 font-weight-bold text-white">¡Haz tu Pedido!</span>
                 </a>
@@ -107,7 +108,7 @@
     <!-- Footer -->
     <footer id="footer" class="bg-primary text-white">
         <div class="container p-4">
-            <p class="lead text-center">Pizzajon - Copyright &copy; 2021</p>
+            <p class="lead text-center">Pizzajon - Copyright &copy; <?= date('Y'); ?></p>
             <div class="d-flex justify-content-center">
                 <i class="fab fa-facebook fa-2x mx-1"></i>
                 <i class="fab fa-instagram fa-2x mx-1"></i>
